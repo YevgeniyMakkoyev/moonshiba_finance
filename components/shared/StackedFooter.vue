@@ -28,13 +28,13 @@ const FooterNavigationLinks = ref([
     "animation-delay": 'delay-300',
     target: '_blank'
   },
-  // {
-  //   name: 'Discord',
-  //   href: 'https://discord.gg/KdxaEmVuPW',
-  //   icon: 'fa-brands fa-discord',
-  //   "animation-delay": 'delay-400',
-  //   target: '_blank'
-  // },
+  {
+    name: 'Discord',
+    href: 'https://discord.gg/7ae3ceE389',
+    icon: 'fa-brands fa-discord',
+    "animation-delay": 'delay-400',
+    target: '_blank'
+  },
 ]);
 
 </script>

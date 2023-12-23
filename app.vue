@@ -22,4 +22,11 @@ body {
 
 <script setup lang="ts">
 import '~/assets/css/font-awesome/all.min.css';
+
+useHead({
+  title: 'MoonShiba.finance - Official Website',
+  meta: [
+    { name: 'description', content: 'The best memecoin on solana!'}
+  ],
+})
 </script>

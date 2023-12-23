@@ -7,20 +7,14 @@ const NavigationItems = ref([
     disabled: false
   },
   {
-    name: 'Roadmap',
-    href: 'https://whitepaper.raised.network',
+    name: 'Roadmap (coming soon)',
+    href: 'https://whitepaper.moonshiba.finance/',
     target: '_blank',
     disabled: true
   },
   {
-    name: 'Docs',
-    href: '/about',
-    target: '_self',
-    disabled: true
-  },
-  {
-    name: 'Lab',
-    href: '/about',
+    name: 'Crafting',
+    href: '/',
     target: '_self',
     disabled: true
   },

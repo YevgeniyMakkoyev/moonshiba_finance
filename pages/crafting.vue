@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    About page
+    Crafting
   </div>
 </template>
 

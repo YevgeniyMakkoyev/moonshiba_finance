@@ -30,13 +30,29 @@
 <!--        The approach we choose to follow is simple yet powerful: we strongly emphasize the importance of the community and its involvement in the development. <br /> We believe that the community is the most important asset and we want to build a strong and healthy community around Raised Network.-->
 <!--        <br />-->
 <!--        <br />-->
-        The community driven approach fits perfectly within Raised Network's vision and mission. <br />
-        We want to build a strong and healthy community, providing tools and services that will benefit the community and the whole ecosystem.
+        <div>
+          The community driven approach fits perfectly within <span class="text-orange-400">$MSHIBA</span> vision and mission. <br />
+          We want to build a strong and healthy community, providing tools and services that will benefit the community and the whole ecosystem.
+        </div>
       </div>
 
-      <div class="flex justify-center">
-        <ULink to="/deploy/solana" class="bg-orange-400 hover:bg-orange-500 duration-300 text-gray-900 font-bold py-2 px-4 rounded-full uppercase">
-          Our application
+      <div class="flex flex-col md:flex-row justify-center">
+        <ULink to="https://forms.gle/aUViMBudqZjs7o8k6" target="_blank" class="bg-orange-400 hover:bg-orange-500 duration-300 text-gray-900 font-bold py-2 px-4 uppercase md:rounded-l-full rounded-l-none">
+          <img src="https://www.gstatic.com/images/branding/product/1x/forms_2020q4_48dp.png" class="mx-4 md:px-0 h-6 w-6 inline-block" />
+          Feedback form
+        </ULink>
+        <ULink to="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=4NmXYNGCwMC3DSvvt7o8ULfEx8rJ9w7QdPVrq3kcMVem&inputAmount=5.368571556&outputAmount=207906.203195&fixed=in" target="_blank" class="bg-orange-400 hover:bg-orange-500 duration-300 text-gray-900 font-bold py-2 px-4 uppercase">
+
+          <img src="https://raydium.io/favicon.ico" class="mx-4 md:px-0 h-6 w-6 inline-block" />
+          Raydium
+        </ULink>
+        <ULink to="https://rugcheck.xyz/tokens/4NmXYNGCwMC3DSvvt7o8ULfEx8rJ9w7QdPVrq3kcMVem" target="_blank" class="bg-orange-400 hover:bg-orange-500 duration-300 text-gray-900 font-bold py-2 px-4 uppercase">
+          <img src="https://rugcheck.xyz/favicon.png" class="mx-4 md:px-0 h-6 w-6 inline-block" />
+          RugCheck
+        </ULink>
+        <ULink to="https://birdeye.so/token/4NmXYNGCwMC3DSvvt7o8ULfEx8rJ9w7QdPVrq3kcMVem?chain=solana" target="_blank" class="bg-orange-400 hover:bg-orange-500 duration-300 text-gray-900 font-bold py-2 px-4 uppercase md:rounded-r-full rounded-r-none">
+          <img src="https://birdeye.so/favicon.ico" class="mx-4 md:px-0 h-6 w-6 inline-block" />
+          Birdeye
         </ULink>
       </div>
     </div>

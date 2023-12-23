@@ -1,14 +1,8 @@
 <template>
-<!--  <div class="flex">-->
-<!--    <NuxtLayout>-->
-<!--      <NuxtPage />-->
-<!--    </NuxtLayout>-->
-<!--  </div>-->
-
-  <div class="bg-gray-800 h-screen flex items-center">
-    <h1 class="text-4xl text-center font-bold py-8 flex justify-center flex-1 text-orange-400">
-      MoonShiba Finance - Coming Soon
-    </h1>
+  <div class="flex">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 

@@ -8,7 +8,7 @@
     <video id="bg_img" src="/background_hero_animation.mp4" autoplay loop class="min-h-screen object-cover" />
   </div>
 
-  <div class="flex grow items-center h-screen">
+  <div class="flex grow items-center min-h-screen">
 
     <div class="space-y-8">
       <div class="relative italic text-orange-400 font-bold inline-flex flex-col">
@@ -60,7 +60,7 @@
   </div>
 
 
-  <section id="advantages" class="h-screen space-y-4 items-center flex">
+  <section id="advantages" class="min-h-screen space-y-4 items-center flex">
     <div class="space-y-8">
       <h1 class="text-4xl uppercase font-bold text-orange-400">Upcoming Features</h1>
 
@@ -73,28 +73,28 @@
 
 
       <div class="flex flex-wrap">
-        <div class="w-1/2 cursor-pointer">
+        <div class="w-full md:w-1/2 cursor-pointer">
           <div class="m-4 p-4 bg-gray-800/50 space-y-4 rounded-md hover:bg-gray-800/70 duration-300 hover:shadow-xl">
             <h1 class="text-2xl text-orange-400">Zealy Telegram Bot</h1>
             <p>Zealy is the ultimate platform for community engagement. It lets founders show their appreciation to their loyal community members with awesome rewards. However, Zealy only works with discord, so we need a different solution for our telegram community. That's why we are developing our own bot that will integrate with Zealy and offer the same features to our telegram users. This bot will also be available to other communities who want to use Zealy on telegram, but don't have the resources to create their own bot. The only requirement is to burn a small amount of MSHIB tokens to access the bot.
             </p>
           </div>
         </div>
-        <div class="w-1/2 cursor-pointer">
+        <div class="w-full md:w-1/2 cursor-pointer">
           <div class="m-4 p-4 bg-gray-800/50 space-y-4 rounded-md hover:bg-gray-800/70 duration-300 hover:shadow-xl">
             <h1 class="text-2xl text-orange-400">Liquidity Tracker</h1>
             <p>Liquidity Tracker is an essential tool for every degen investor. Since our community is also degen, we aim to provide this useful tool to give investors insights on the new liquidity added recently with aggregation and verification in real time. This way, we provide users with an easy-to-use and helpful tool to be independent. We will also provide a free space for members to discuss third-party coins, in order to create an inclusive and collaborative community with other projects.
             </p>
           </div>
         </div>
-        <div class="w-1/2 cursor-pointer">
+        <div class="w-full md:w-1/2 cursor-pointer">
           <div class="m-4 p-4 bg-gray-800/50 space-y-4 rounded-md hover:bg-gray-800/70 duration-300 hover:shadow-xl">
             <h1 class="text-2xl text-orange-400">Snipe Bot</h1>
             <p>The Snipe bot is a powerful and convenient tool that allows our members to buy coins directly from telegram, without having to switch to other platforms or apps. It also lets them manage their positions securely and independently, with features such as stop-loss, take-profit, and trailing-stop. The Snipe bot is integrated with the most popular and reliable exchanges, such as Raydium, Orca, and FluxBeam. The Snipe bot is easy to use, fast, and reliable, and it can help you snipe the best deals in the crypto market.
             </p>
           </div>
         </div>
-        <div class="w-1/2 cursor-pointer">
+        <div class="w-full md:w-1/2 cursor-pointer">
           <div class="m-4 p-4 bg-gray-800/50 space-y-4 rounded-md hover:bg-gray-800/70 duration-300 hover:shadow-xl">
             <h1 class="text-2xl text-orange-400">Governance platform</h1>
             <p>Welcome to the Governance Platform, a dynamic space where the MSHIBA community actively participates in shaping the future of our project. At MSHIBA, we believe in decentralization, transparency, and community-driven decision-making. This platform serves as a hub for all MSHIBA token holders to exercise their voting rights and influence the direction of the project.

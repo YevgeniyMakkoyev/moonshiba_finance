@@ -5,9 +5,9 @@ import StackedFooter from "~/components/shared/StackedFooter.vue";
 
 <template>
   <div id="a_test" class="mx-auto grow flex flex-col relative min-h-screen">
-    <div class="grow flex flex-col max-w-7xl mx-auto">
+    <div class="grow flex flex-col">
       <StackedNavigation />
-      <div class="grow p-8 max-w-7xl mx-auto flex flex-col overflow-scroll-y">
+      <div class="grow p-8 max-w-7xl mx-auto overflow-scroll-y">
         <slot />
       </div>
       <StackedFooter />

@@ -13,6 +13,12 @@ const NavigationItems = ref([
     disabled: true
   },
   {
+    name: 'Leaderboard',
+    href: '/leaderboard',
+    target: '_self',
+    disabled: false
+  },
+  {
     name: 'Crafting',
     href: '/',
     target: '_self',

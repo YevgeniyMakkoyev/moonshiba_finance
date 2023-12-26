@@ -17,7 +17,12 @@ body {
   @apply antialiased font-sans text-gray-200 bg-gray-900;
   font-family: "Proto Mono Light", monospace;
   font-size: 0.8rem;
+  box-shadow: inset 50px 50px 150px 250px rgba(0,0,0,.2);
+
 }
+
+
+
 </style>
 
 <script setup lang="ts">
